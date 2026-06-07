@@ -14,7 +14,6 @@ def divide(a , b):
     return a / b
 
 num1 = int(input("enter the first number: "))
-num2 = int(input("enter the second number: "))
 
 print("1. Addition")
 print("2. Subtraction")
@@ -22,6 +21,8 @@ print("3. Multiplication")
 print("4. Division")
 
 choice = int(input("choose opreation: "))
+
+num2 = int(input("enter the second number: "))
 
 if(choice == 1):
     print("Result =", add(num1,num2))
